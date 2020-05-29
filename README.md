@@ -11,6 +11,8 @@ The goal of the project is to identify the brand name and price of a given cloth
 # **DATA PREPARATION:**
 The dataset we are working with is the Farfetch Listings obtained from Kaggle website.
 
+[data_preprocessing_notebook](https://github.com/FarnazG/project005/blob/master/notebooks/data_preprocessing.ipynb)
+ 
 1. Data cleaning:
 *   Check for missing data and place holders
 *   Check for data types
@@ -55,9 +57,7 @@ The dataset we are working with is the Farfetch Listings obtained from Kaggle we
 5. splitting train and test data
 6. shuffling data for more accurate predictions 
 
- [data_preprocessing_notebook](https://github.com/FarnazG/project005/blob/master/notebooks/data_preprocessing.ipynb)
- 
- 
+
  
  # **MODELING APPROACHES**:
 
@@ -83,7 +83,7 @@ In this project, six different CNN models have been developed to compare the res
 
    * Model Accuracy, tanh and Softmax activation functions, dropping more hidden layers from the model
 
- ![tanh activation](https://github.com/FarnazG/project005/blob/master/images/model-accuracy-3.png)
+ ![tanh activation](https://github.com/FarnazG/project005/blob/master/images/model-accuracy-3.png.png)
 
 As we can see, the accuracy of the models is not satisfying.
 
@@ -161,7 +161,7 @@ As we can see, the accuracy of the models is not satisfying.
 # **CONCLUSION**
 After exploring all different models and comparing the results, the best results are obtained from **Combination of One-vs-all and Transfer learning** model.
 
-![alt text](https://github.com/FarnazG/project005/blob/master/final-model-result.png)
+![alt text](https://github.com/FarnazG/project005/blob/master/images/final-model-result.png)
 
 The model shows %66 success rate at predicting the brand name.
 ![alt text](https://github.com/FarnazG/project005/blob/master/images/success-rate.png)
